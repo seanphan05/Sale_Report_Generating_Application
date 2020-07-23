@@ -1,0 +1,240 @@
+/*
+Theme Name: lotterytheme
+Theme URI: http://lotteryreport.ezyro.com/htdocs/wp-content/themes/lotterytheme
+Author: Sean Phan
+Author URI: http://lotteryreport.ezyro.com
+Description: This is a unique them for Lottery Report System.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lotterytheme
+*/
+html,body {
+  height:100%;
+  min-height:100%;
+  max-height:100%;
+}
+
+body {
+    margin: 0;
+}
+
+#main-holder {
+    height: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+
+td {
+    height: 15px;
+    text-align: left;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.head {
+    width: 50px;
+}
+
+#current_ticket_table {
+    table-layout: fixed;
+}
+
+#scratcher_report_table {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+.group_function {
+    margin: 0.25em;
+}
+
+#firstCol {
+    float: left;
+    margin-left: 0.5em;
+    width: 49%;
+}
+
+#secondCol {
+    float: right;
+    width: 49%;
+}
+
+#testCol {
+    text-align: center;
+}
+
+#main-ribbon {
+    text-align: center;
+}
+.tab {
+    float: right;
+    padding-right: 5em;
+    color: blue;
+}
+
+.notification {
+    color: green;
+    text-align: center;
+}
+
+#total_add_message {
+    color: green;
+    text-align: center;
+}
+
+.title {
+    color: darkred;
+}
+
+#activate_message, #reminder, #close_shift_message {
+    color: red;
+    font-weight: bold;
+}
+
+#nav-message, #returnMessage {
+    color: green;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.report_head {
+    height: 5px;
+}
+
+
+#checkbox-list1, #checkbox-list2, #checkbox-list3 {
+    float: left;
+    margin-left: 1em;
+    width: 30%;
+}
+
+
+/*Login Section*/
+#login-page {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3a3a3a;
+}
+
+#login-holder {
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 17px;
+    border-style: solid;
+    padding-bottom: 4em;
+    background-color: white;
+    text-align: center;
+}
+
+#login-image {
+     width: 80px; 
+     height: 80px;
+}
+
+#login-error-msg-holder {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+#login-header {
+    font-size: 30px;
+}
+
+#login-image {
+    text-align: center;
+}
+
+#login-form {
+    display: grid;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.login-form-field::placeholder {
+    color: #3a3a3a;
+}
+
+.login-form-field {
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+}
+
+#login-form-submit {
+    width: 100%;
+    margin-top: 10px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #3a3a3a;
+    cursor: pointer;
+    outline: none;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 600px) {
+    
+    #main-ribbon {
+        text-align: left;
+    }
+    #firstCol, #secondCol, #testCol {
+        float: left;
+        width: 100%;
+        margin-left: 0.25em;
+    }
+    #testCol {
+        text-align: left;
+    }
+    #current_ticket_table {
+        table-layout: auto;
+    }
+    #checkbox-list1, #checkbox-list2, #checkbox-list3 {
+        width: 100%;
+    }
+
+    #login-form {
+        width: 90%;
+    }
+    #login-header {
+        font-size: 15px;
+    }
+    #login-holder {
+        width: 60%;
+    }
+    #login-image {
+        width: 50px; 
+        height: 50px;
+    }
+    .login-form-field {
+        margin-bottom: 5px;
+    }
+    #login-form-submit {
+        width: 100%;
+        margin-top: 5px;
+        padding: 3.5px;
+    }
+}
+
+
+
