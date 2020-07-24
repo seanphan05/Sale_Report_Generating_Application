@@ -3,8 +3,8 @@
 * Configuration for database connection
 *
 */
-$host 		= "";
-$username 	= "";
+$host 	    = "";
+$username   = "";
 $password   = "";
 $dbname     = "";
 $dsn        = "mysql:host=$host; dbname=$dbname";
