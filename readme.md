@@ -11,5 +11,5 @@
 
 2. Due to security reason:  
 Password will not be shown in handler.js file.  
-Credential infor will not be shown in config.php file.
+Credential info will not be shown in config.php file.
         
