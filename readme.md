@@ -1,7 +1,7 @@
 ﻿Setup Requirement 
 ==================
 ## Web Information
-1. Homepage: http://lotteryreport.ezyro.com
+1. Homepage: https://lotteryreport.ga
 2. Login credential is required to use.
 
 
